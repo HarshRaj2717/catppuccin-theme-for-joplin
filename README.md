@@ -12,9 +12,9 @@
   ·
   <a href="https://github.com/sadmice/Catppuccin-Theme-For-Joplin#-hidden-elements">🥷 Hidden elements</a>
   ·
-  <a href="https://github.com/sadmice/Catppuccin-Theme-For-Joplin#-spoilers">⬇️ Spoilers</a>
+  <a href="https://github.com/sadmice/Catppuccin-Theme-For-Joplin#%EF%B8%8F-spoilers">⬇️ Spoilers</a>
   ·
-  <a href="https://github.com/sadmice/Catppuccin-Theme-For-Joplin#-mermaid">🧜‍♀️ Mermaid</a>
+  <a href="https://github.com/sadmice/Catppuccin-Theme-For-Joplin#%EF%B8%8F-mermaid">🧜‍♀️ Mermaid</a>
 </h6>
 
 ![image](https://user-images.githubusercontent.com/23323305/168392162-44a6be18-b75d-4796-97df-559635da1fbb.png)

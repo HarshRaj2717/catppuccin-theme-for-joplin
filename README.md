@@ -17,7 +17,7 @@
   <a href="https://github.com/sadmice/Catppuccin-Theme-For-Joplin#%EF%B8%8F-mermaid">🧜‍♀️ Mermaid</a>
 </h6>
 
-![image](https://user-images.githubusercontent.com/23323305/168392162-44a6be18-b75d-4796-97df-559635da1fbb.png)
+![image](https://user-images.githubusercontent.com/23323305/170885382-e6674a5e-2fcb-4d01-9333-28ec9346f8c1.png)
 
 ## 🔧 Installation
 
@@ -45,7 +45,7 @@
 
 ### 🎈 Floating Markdown TOC
 
-![image](https://user-images.githubusercontent.com/23323305/168394747-64052ed6-295c-40d0-bd1a-a8ce06ce1421.png)
+![2022 05 29-21 16 21 screenshot](https://user-images.githubusercontent.com/23323305/170885590-3068d507-e74a-4f37-9d0a-05d75b49535c.png)
 
 To use the table of contents, you need to:
 
@@ -85,7 +85,7 @@ Some Joplin's UI elements are hidden by default, but you can return them if you 
 
 #### "All Notes" button
 
-Change the `all-notes-button-display` variable on line 28 of userchome.css from `none` to `flex`.
+Change the `all-notes-button-display` variable on line 32 of userchome.css from `none` to `flex`.
 
 ```css
 --all-notes-button-display: none; /* hidden */
@@ -94,7 +94,7 @@ Change the `all-notes-button-display` variable on line 28 of userchome.css from 
 
 #### Rich Text Editor Switch
 
-Change the `rich-text-editor-switch-button-display` variable on line 29 of userchome.css from `none` to `flex`.
+Change the `rich-text-editor-switch-button-display` variable on line 33 of userchome.css from `none` to `flex`.
 
 ```css
 --rich-text-editor-switch-button-display: none; /* hidden */
@@ -103,7 +103,7 @@ Change the `rich-text-editor-switch-button-display` variable on line 29 of userc
 
 #### "New Todo" button
 
-Change the `new-todo-button-display` variable on line 30 of userchome.css from `none` to `flex`.
+Change the `new-todo-button-display` variable on line 34 of userchome.css from `none` to `flex`.
 
 ```css
 --new-todo-button-display: none; /* hidden */
@@ -123,6 +123,6 @@ This theme contains styling for the Spoilers plugin.
 
 ### 🧜‍♀️ Mermaid
 
-![image](https://user-images.githubusercontent.com/23323305/168396949-894fcb6e-834b-49d2-ad3b-9b0c6a359a18.png)
+![image](https://user-images.githubusercontent.com/23323305/170885879-869d9583-3ad7-463e-a208-a56323941354.png)
 
 To see your mermaid charts better, enable a dark theme for them by including `%%{init: { "theme" : "dark", "flowchart" : { "curve" : "basis" } }%%%` in your mermaid markdown.

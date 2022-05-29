@@ -2,83 +2,87 @@
 /* CSS for: Rendered Markdown & Rich Text Editor */
 
 :root {
-	--flamingo: #f2cdcd;
-	--mauve: #ddb6f2;
-	--pink: #f5c2e7;
-	--maroon: #e8a2af;
-	--red: #f28fad;
-	--peach: #f8bd96;
-	--yellow: #fae3b0;
-	--green: #abe9b3;
-	--teal: #b5e8e0;
-	--blue: #96cdfb;
-	--sky: #89dceb;
-	--black0: #161320;
-	--black1: #1a1826;
-	--black2: #1e1e2e;
-	--black3: #302d41;
-	--black4: #575268;
-	--gray0: #6e6c7e;
-	--gray1: #988ba2;
-	--gray2: #c3bac6;
-	--white: #d9e0ee;
-	--lavender: #c9cbff;
 	--rosewater: #f5e0dc;
+	--flamingo: #f2cdcd;
+	--pink: #f5c2e7;
+	--mauve: #cba6f7;
+	--red: #f38ba8;
+	--maroon: #eba0ac;
+	--peach: #fab387;
+	--yellow: #f9e2af;
+	--green: #a6e3a1;
+	--teal: #94e2d5;
+	--sky: #89dceb;
+	--sapphire: #74c7ec;
+	--blue: #89b4fa;
+	--lavender: #b4befe;
+	--text: #cdd6f4;
+	--subtext1: #bac2de;
+	--subtext0: #a6adc8;
+	--overlay2: #9399b2;
+	--overlay1: #7f849c;
+	--overlay0: #6c7086;
+	--surface2: #585b70;
+	--surface1: #45475a;
+	--surface0: #313244;
+	--base: #1e1e2e;
+	--mantle: #181825;
+	--crust: #11111b;
 
 	--base-font: "Fira Sans", avenir, arial, sans-serif;
-	--base-font-size: 14px;
+	--base-font-size: 13px;
 
 	--monospace-font: "Fira Code", monospace;
-	--monospace-font-size: 12px;
+	--monospace-font-size: 11px;
 
-	--render-viewer-bg-color: var(--black2);
-	--render-viewer-color: var(--white);
+	--render-viewer-bg-color: var(--base);
+	--render-viewer-color: var(--text);
 
-	--selection-bg-color: var(--black4);
+	--selection-bg-color: var(--surface2);
 
-	--hr-color: var(--gray0);
+	--hr-color: var(--subtext0);
 
 	--headings-font-weight: 600;
 	--headings-text-color: var(--mauve);
-	--h1-border-color: var(--gray0);
+	--h1-border-color: var(--subtext0);
 
 	--strong-text-color: var(--maroon);
-	--italic-text-color: var(--white);
+	--italic-text-color: var(--text);
 	--mark-text-bg-color: var(--teal);
-	--mark-text-color: var(--black2);
+	--mark-text-color: var(--mantle);
 	--search-text-bg-color: var(--yellow);
-	--search-text-color: var(--black0);
-	--strikethrough-text-color: var(--gray0);
+	--search-text-color: var(--mantle);
+	--strikethrough-text-color: var(--subtext0);
 	--insert-text-color: var(--green);
 	--abbreviation-text-color: var(--peach);
-	--inline-code-text-color: var(--white);
-	--inline-code-bg-color: var(--black0);
+	--inline-code-text-color: var(--text);
+	--inline-code-bg-color: var(--mantle);
 	--link-text-color: var(--blue);
 	--link-resource-icon-color: var(--link-text-color);
-	--footnote-text-color: var(--gray0);
+	--footnote-text-color: var(--subtext0);
 
-	--table-th-text-color: var(--white);
-	--table-th-bg-color: var(--black1);
-	--table-th-border-color: var(--gray2);
-	--table-td-text-color: var(--white);
-	--table-tr-odd-bg-color: var(--black3);
-	--table-tr-even-bg-color: var(--black1);
+	--table-th-text-color: var(--text);
+	--table-th-bg-color: var(--surface2);
+	--table-th-border-color: var(--overlay0);
+	--table-td-text-color: var(--text);
+	--table-tr-odd-bg-color: var(--surface0);
+	--table-tr-even-bg-color: var(--surface1);
 
-	--blockquote-bg-color: var(--black3);
-	--blockquote-border-color: var(--black0);
+	--blockquote-bg-color: var(--surface0);
+	--blockquote-border-color: var(--mantle);
 
-	--codeblock-bg-color: var(--black0);
-	--codeblock-text-color: var(--white);
+	--codeblock-bg-color: var(--mantle);
+	--codeblock-text-color: var(--text);
 
-	--mermaid-bg-color: var(--black0);
+	--mermaid-bg-color: var(--surface0);
 
-	--toc-bg-color: var(--black3);
+	--toc-bg-color: var(--mantle);
 
-	--sb-bg: var(--black3);
-	--si-bg: var(--black3);
+	--sb-bg: var(--surface0);
+	--si-bg: var(--surface0);
 
-	--scroll-bar-color: var(--black3);
-	--scroll-bar-color-hover: var(--black4);
+	--scroll-bar-color: var(--overlay0);
+	--scroll-bar-color-hover: var(--overlay1);
 
 	--print-note-title-display: block; /* show/hide the notebook title from the PDF | show: "block;" | hide: "none;" */
 	--print-markdown-toc-display: block; /* show/hide the markdown toc from the PDF | show: "block;" | hide: "none;" */

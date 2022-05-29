@@ -2,43 +2,47 @@
 /* CSS for: Markdown Editor & Joplin UI */
 
 :root {
-	--flamingo: #f2cdcd;
-	--mauve: #ddb6f2;
-	--pink: #f5c2e7;
-	--maroon: #e8a2af;
-	--red: #f28fad;
-	--peach: #f8bd96;
-	--yellow: #fae3b0;
-	--green: #abe9b3;
-	--teal: #b5e8e0;
-	--blue: #96cdfb;
-	--sky: #89dceb;
-	--black0: #161320;
-	--black1: #1a1826;
-	--black2: #1e1e2e;
-	--black3: #302d41;
-	--black4: #575268;
-	--gray0: #6e6c7e;
-	--gray1: #988ba2;
-	--gray2: #c3bac6;
-	--white: #d9e0ee;
-	--lavender: #c9cbff;
 	--rosewater: #f5e0dc;
+	--flamingo: #f2cdcd;
+	--pink: #f5c2e7;
+	--mauve: #cba6f7;
+	--red: #f38ba8;
+	--maroon: #eba0ac;
+	--peach: #fab387;
+	--yellow: #f9e2af;
+	--green: #a6e3a1;
+	--teal: #94e2d5;
+	--sky: #89dceb;
+	--sapphire: #74c7ec;
+	--blue: #89b4fa;
+	--lavender: #b4befe;
+	--text: #cdd6f4;
+	--subtext1: #bac2de;
+	--subtext0: #a6adc8;
+	--overlay2: #9399b2;
+	--overlay1: #7f849c;
+	--overlay0: #6c7086;
+	--surface2: #585b70;
+	--surface1: #45475a;
+	--surface0: #313244;
+	--base: #1e1e2e;
+	--mantle: #181825;
+	--crust: #11111b;
 
 	--all-notes-button-display: none; /* show/hide the all notes button | show: "flex;" | hide: "none;" */
 	--rich-text-editor-switch-button-display: none; /* show/hide the editor toggle button | show: "flex;" | hide: "none;" */
 	--new-todo-button-display: none; /* show/hide the new todo button | show: "flex;" | hide: "none;" */
 
 	--base-font: "Fira Sans", avenir, arial, sans-serif;
-	--base-font-size: 14px;
+	--base-font-size: 13px;
 
 	--monospace-font: "Fira Code", monospace;
-	--monospace-font-size: 12px;
+	--monospace-font-size: 11px;
 
-	--markdown-editor-bg-color: var(--black2);
-	--markdown-editor-color: var(--white);
+	--markdown-editor-bg-color: var(--base);
+	--markdown-editor-color: var(--text);
 
-	--hr-color: var(--gray0);
+	--hr-color: var(--subtext0);
 
 	--headings-font-weight: 600;
 	--headings-text-color: var(--mauve);
@@ -46,77 +50,77 @@
 	--strong-text-color: var(--maroon);
 	--italic-text-color: var(--peach);
 	--mark-text-bg-color: var(--teal);
-	--mark-text-color: var(--black2);
+	--mark-text-color: var(--mantle);
 	--search-text-bg-color: var(--yellow);
-	--search-text-color: var(--black0);
-	--strikethrough-text-color: var(--gray0);
+	--search-text-color: var(--mantle);
+	--strikethrough-text-color: var(--subtext0);
 	--insert-text-color: var(--green);
-	--inline-code-text-color: var(--white);
-	--inline-code-bg-color: var(--black0);
+	--inline-code-text-color: var(--text);
+	--inline-code-bg-color: var(--mantle);
 	--link-color: var(--rosewater);
 	--link-text-color: var(--blue);
 
-	--list-text-color: var(--white);
+	--list-text-color: var(--text);
 	--list-token-color: var(--teal);
 
-	--codeblock-bg-color: var(--black0);
+	--codeblock-bg-color: var(--mantle);
 
 	--syntax-tag-text-color: var(--red);
 	--syntax-string-text-color: var(--green);
 	--syntax-attribute-text-color: var(--peach);
 
-	--general-bg-color: var(--black1);
+	--general-bg-color: var(--crust);
 
-	--np-bg-color: var(--black1);
-	--np-header-text-color: var(--white);
-	--np-notebook-bg-color-selected: var(--black4);
-	--np-notebook-text-color: var(--white);
-	--np-note-count-label-color: var(--gray2);
-	--np-sync-btn-bg-color: var(--black3);
-	--np-sync-btn-text-color: var(--white);
-	--np-sync-btn-bg-color-hover: var(--black4);
+	--np-bg-color: var(--crust);
+	--np-header-text-color: var(--text);
+	--np-notebook-bg-color-selected: var(--surface2);
+	--np-notebook-text-color: var(--text);
+	--np-note-count-label-color: var(--subtext0);
+	--np-sync-btn-bg-color: var(--surface0);
+	--np-sync-btn-text-color: var(--text);
+	--np-sync-btn-bg-color-hover: var(--surface2);
 
-	--nlp-bg-color: var(--black1);
-	--nlp-search-bar-bg-color: var(--black3);
-	--nlp-search-bar-text-color: var(--white);
-	--nlp-search-bar-placeholder-color: var(--gray0);
-	--nlp-search-bar-bg-color-hover: var(--black4);
-	--nlp-btn-bg-color: var(--black3);
-	--nlp-btn-bg-color-hover: var(--black4);
-	--nlp-btn-icon-color: var(--white);
-	--nlp-note-text-color: var(--white);
-	--nlp-note-bg-color-selected: var(--black4);
+	--nlp-bg-color: var(--crust);
+	--nlp-search-bar-bg-color: var(--surface0);
+	--nlp-search-bar-text-color: var(--text);
+	--nlp-search-bar-placeholder-color: var(--subtext0);
+	--nlp-search-bar-bg-color-hover: var(--surface2);
+	--nlp-btn-bg-color: var(--surface0);
+	--nlp-btn-bg-color-hover: var(--surface2);
+	--nlp-btn-icon-color: var(--text);
+	--nlp-note-text-color: var(--text);
+	--nlp-note-bg-color-selected: var(--surface2);
 
-	--eh-bg-color: var(--black2);
-	--ett-bg-color: var(--black2);
-	--ett-btn-icon-color: var(--white);
-	--ett-btn-bg-color-hover: var(--black4);
+	--eh-bg-color: var(--base);
+	--ett-bg-color: var(--base);
+	--ett-btn-icon-color: var(--text);
+	--ett-btn-bg-color-hover: var(--surface2);
 
-	--tags-bg-color: var(--black4);
+	--tags-bg-color: var(--surface0);
 
-	--modal-bg-color: var(--black1);
-	--modal-btn-bg-color: var(--black3);
-	--modal-btn-bg-color-hover: var(--black4);
-	--modal-btn-text-color: var(--white);
+	--modal-bg-color: var(--crust);
+	--modal-btn-bg-color: var(--surface0);
+	--modal-btn-bg-color-hover: var(--surface2);
+	--modal-btn-text-color: var(--text);
 
-	--scroll-bar-color: var(--black3);
-	--scroll-bar-color-hover: var(--black4);
+	--scroll-bar-color: var(--overlay0);
+	--scroll-bar-color-hover: var(--overlay1);
 
-	--editors-splitter-color: var(--black3);
+	--editors-splitter-color: var(--overlay0);
 
-	--options-menu-bg-color: var(--black1);
-	--options-menu-bg-color-selected: var(--black4);
-	--options-menu-text-color: var(--white);
-	--options-content-bg-color: var(--black2);
-	--options-btn-bg-color: var(--black3);
-	--options-btn-bg-color-hover: var(--black4);
-	--options-btn-text-color: var(--white);
-	--options-table-th-bg-color: var(--black1);
-	--options-table-th-border-color: var(--gray2);
-	--options-table-tr-odd-bg-color: var(--black3);
-	--options-table-tr-even-bg-color: var(--black1);
-	--options-table-shortcut-bg-color: var(--black4);
-	--options-plugin-card-bg-color: var(--black1);
+	--options-menu-bg-color: var(--crust);
+	--options-menu-bg-color-selected: var(--surface2);
+	--options-menu-text-color: var(--text);
+	--options-content-bg-color: var(--base);
+	--options-btn-bg-color: var(--surface0);
+	--options-btn-bg-color-hover: var(--surface2);
+	--options-btn-text-color: var(--text);
+	--options-table-th-bg-color: var(--surface2);
+	--options-table-th-border-color: var(--overlay0);
+	--options-table-tr-odd-bg-color: var(--surface0);
+	--options-table-tr-even-bg-color: var(--surface1);
+	--options-table-shortcut-bg-color: var(--surface2);
+	--options-plugin-card-bg-color: var(--mantle);
 }
 
 /* scrollbar */
@@ -298,8 +302,11 @@ body {
 }
 
 /* notebook panel: notebook */
-.list-item-container .list-item > .title {
+.list-item-container .list-item > .title,
+.list-item-container .list-item > .tag-label {
 	color: var(--np-notebook-text-color);
+	font-family: var(--base-font);
+	font-size: var(--base-font-size);
 }
 
 .rli-sideBar .tags .list-item-container,
@@ -383,6 +390,7 @@ body {
 /* notebook panel: note count label */
 .ihcmBd.note-count-label {
 	color: var(--np-note-count-label-color);
+	font-size: var(--base-font-size);
 }
 
 /* notebook panel: synchronize button */
@@ -473,6 +481,8 @@ body {
 
 .rli-noteList .note-list .note-list-item a > span {
 	color: var(--nlp-note-text-color);
+	font-family: var(--base-font);
+	font-size: var(--base-font-size);
 }
 
 .rli-noteList .note-list .note-list-item {
